@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sensors: Touch</title>
+
+    <link rel="icon" href="https://i.ibb.co/9Ztfdxp/ROBOTICS.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="dropdown-sidebar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="quizSection.css">
+</head>
+<body>
+
+    <!-- 3 columns -->
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt=""> Home ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Begin?</a></li>
+                        <li><a href="#">10_Topics</a></li>
+                        <li><a href="#"> Questions</a></li>
+                    </ul>
+                </li>
+                
+                <li class="with-dropdown">
+                    <a href="#topic-buttons"><img src="https://i.ibb.co/8XYKTgh/reading-book-1.png" alt=""> Topics ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">Movement</a></li>
+                        <li><a href="#">Motor</a></li>
+                        <li><a href="#">Display</a></li>
+                        <li><a href="#">Sound</a></li>
+                        <li><a href="#">Control</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Event</a></li>
+                        <li><a href="#">Operator</a></li>
+                        <li><a href="#">Variable</a></li>
+                        <li><a href="#">My Block</a></li>
+
+                    </ul>
+                </li>
+
+                <li><a href="#wro"><img src="https://i.ibb.co/Drnm7cM/competition.png" alt=""> About WRO ⌄ </img></a>
+                    <ul  class="dropdown">
+                        <li><a href="#">WRO?</a></li>
+                        <li><a href="#">ANS_journey</a></li>
+                        <li><a href="#">Tips</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="wrapper">
+        <div class="header-content" id="movement-home">
+            <h1>Sensors</h1>
+            <div>
+                <p>Sensors in EV3 are very important because they help the robot "see" and "feel" its surroundings in order for EV3 to make smart decisions based on what it senses.</p>
+                <p>
+                    <strong>There are 5 type of sensors:</strong>
+                </p>
+            </div>
+            <!-- grid-container has the margin to the left-->
+            <div class="grid-container-5col">
+
+                <!-- Introduction-->
+
+                <div class="grid-item">
+                    <a href="">
+                        <div class="flex-grid">
+                            <div class="flex-item">
+                                <h3>Ev3 Brick</h3>
+                            <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/2a068bc435627b569862da5e0523a113/large.jpg" alt="Sensor-brick">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Color Sensor</h3>
+                                    <img src="https://ev3dev-lang-java.github.io/docs/support/fundamentals/sensors/ev3-light-sensor/ev3_light_sensor.png" alt="Sensor-color">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Touch Sensor</h3>
+                                <img src="https://m.media-amazon.com/images/I/51ANO3KKxDL._AC_UF894,1000_QL80_.jpg" alt="Sensor-touch">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3 class="h3-smaller">Ultrasonic Sensor</h3>
+                                    <img src="https://m.media-amazon.com/images/I/51wnwlOTfCL.jpg" alt="Sensor-ultrasonic">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="grid-item">
+                        <a href="">
+                            <div class="flex-grid">
+                                <div class="flex-item">
+                                    <h3>Gyro Sensor</h3>
+                                    <img src="https://i.ebayimg.com/images/g/w5AAAOSwzc5kTT20/s-l400.jpg" alt="Sensor-gyro">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    
+
+            <!-- Closure of div.grid-container -->
+            </div>
+        </div>
+            
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="item">
+                        <div class="movement-logo"><a href="#movement-home"><img src="https://s9.gifyu.com/images/SZXR2.png" alt="logo-sensor-touch">
+                        </div>
+
+                        <a href="#movement-home"><span class="side-bar-title-1">Touch Sensor:</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#below-header" class="sub-item"> What's touch sensor?</a></li>
+                            <li><a href="#touch-build" class="sub-item"> Add Touch sensor design</a></li>
+                            <li><a href="#touch-start" class="sub-item">Wait until "Pressed"->Start</a></li>
+                            <li><a href="#touch-stop" class="sub-item">Wait until "Pressed"->Stop</a></li>
+                            <li><a href="#touch-movement" class="sub-item">Set Movement motors</a></li>
+                            <li><a href="#repeat-until-challenge" class="sub-item">Repeat Until "Pressed"</a></li>
+                            <li><a href="#movement-key-takeaway" class="sub-item">Key-takeaways</a></li>
+                            <li><a href="#touchSensor-quiz" class="sub-item">Quiz</a></li>
+                            <li><a href="#challengeYou" class="sub-item">Challenge for you</a></li>
+                        </ul>
+
+                        <!-- <a href="different-page.html#section1">Section One</a> -->
+                        <a href=""><span class="side-bar-title-2">The 5 Sensors:</span></a>
+                        <ul class="sub-menu">
+                            <li><a href="#" class="sub-item">Brick Sensor</a></li>
+                            <li><a href="#" class="sub-item "> Color Sensor</a></li>
+                            <li><a href="#" class="sub-item highlight">Touch Sensor</a></li>
+                            <li><a href="#" class="sub-item">Ultrasonic Sensor</a></li>
+                            <li><a href="#" class="sub-item">Gyro Sensor</a></li>
+                            
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- Introduction of color sensor -->
+        <div class="main-container grid-item together pink-background" id="below-header">
+            <div class="flex-grid flex-container flex-item challenge-container">
+                <div class="letter-both">
+                    <h2>Touch Sensor</h2>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <img src="https://chamois.github.io/webfiles/Mindstorms2/Content/Resources/Multimedia/Robo%204/Missed/Config_2-1%20(1).png" alt="touch">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                    <p>-> The touch sensor in EV3 is a small device that detects physical contact, like when you push a button.</p>
+                    <p>-> The touch sensor helping robots interact with the world around them and making them smarter and safer!</p>
+                     
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-container grid-item together pink-background" id="touch-build">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>Add the Touch sensor to the robot by:</h2>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <img src="https://i.ibb.co/R0d6X9W/IMG-2017.jpg" alt="IMG-2017">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                     <a href="https://ashl3y-lin.github.io/Way-1_Exploration-Touch_Sensor/"><button class="design_button">Click here to find the guide</button></a>
+                </div>
+            </div>
+        </div>
+
+<!-- Sensor How to look at the color -->
+        <div class="main-container grid-item together pink-background" id="view-touch">
+            <div class="one-grid flex-item">
+                <div class="letter-both">
+                    <h2>A way to know if touch sensor is pressed or released:</h2>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <img src="https://i.ibb.co/zHbXxQC/ev3-connected-touch.png" alt="ev3-connected-touch">
+                   </div>
+                </div>
+
+                <div class="flex-item">
+                     <p>If it shows zero (0), it's released.</p>
+                     <p>If it shows one (1), it's pressed.</p>
+                </div>
+            </div>
+        </div>
+
+
+ <!-- The Wait until "Pressed" -> Start...-->
+        <div class="three-columns grid-container-height" id="touch-start">
+            <div class="grid-item">
+                <h2>Wait until "Pressed"->Start</h2>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/sKmr4dW/Touch-Wait-Until.png" alt="Touch-Wait-Until">
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                    <img src="https://s12.gifyu.com/images/Sao3T.gif" alt="touch (1)" >
+                    <p>1- Press </p>
+                    <p>2- Robot begin moving</p>
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/q9tPPHQ/1-wait-until-pressed-move.png" alt="1-wait-until-pressed-move">
+                    <p>1- <strong>Wait</strong> [robot don't do anything] <strong>Until</strong> [Touch sensor is "pressed"]</p>
+                    <p>2- Robot moves BACKWARD for 500 degrees at the speed of 20%.</p>
+                </div>
+            </div>
+        <!-- closure The div of 3-columns -->
+        </div>
+
+        <hr class="line-divider">
+
+
+<!-- The Wait until "Pressed" -> Stop.....-->
+        <div class="three-columns grid-container-height" id="touch-stop">
+            <div class="grid-item">
+                <h2>Wait until "Pressed"->Stop</h2>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/sKmr4dW/Touch-Wait-Until.png" alt="Touch-Wait-Until">
+                    
+                </div>
+            </div>
+            <div class="grid-item unite">
+                <div class="flex-item">
+                   <img src="https://s12.gifyu.com/images/Sao3w.gif" alt="touch (2)" >
+                    <p>Notice that it does the opposite from the last one</p>
+                    <p>1- Robot "start moving" </p>
+                    <p>2- stop when sensor is "pressed"</p>
+                    
+                </div>
+                <div class="flex-item">
+                    <img src="https://i.ibb.co/rGM2pFR/2-wait-until-pressed-stop.png" alt="2-wait-until-pressed-stop">
+                    <p>1- <strong>Wait</strong> [wheels move backward  at speed of 20% <em>repeatedly</em>] <strong>Until</strong> [touch sensor is "pressed"]</p>
+                    <p>2- Stop moving.</p>
+                </div>
+            </div>
+        <!-- closure The div of 3-columns -->
+        </div>
+
+        <hr class="line-divider">
+
+                
+<!-- The REPEAT UNTIL -->
+
+<!-- Repeat Until  -->
+<div class="grid-container">
+          
+            <div class="grid-item pinky-color" id="touch-movement">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>"set movement motors" block above the "movement" block</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/RySw24B/3-1-repeat-until-pressed.png" alt="3-1-repeat-until-pressed">
+                    </div>
+                    <div class="paragraph">
+                        <p>Notice that there are 2 "set movement motor" blocks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item pinky-color">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>Robot moving:</h2>
+
+                        <div class="flex-item">
+                            <p>This is the "set movement motor"</p>
+                           <img src="https://i.ibb.co/Q9KGfdP/set-movement.png" alt="set-movement">
+                        </div>
+
+                        <div class="flex-item">
+                            <p>For <strong>Repeat Until "pressed</strong>"</p>
+                            <img src="https://i.ibb.co/xD3XqqY/Touch-Repeat-until.png" alt="Touch-Repeat-until">
+                        </div>
+
+                        <div class="flex-item">
+                          <img src="https://s12.gifyu.com/images/Sao3R.gif" alt="touch (3)">
+                        </div>
+                       
+                       
+                    </div>
+                    <div class="paragraph">
+                    <br>
+                       <h3>⬅️ These 2 codes are the same ➡️</h3>
+                       <p>It's better to put one of this pink block AT THE BEGINNING</p>
+                       <br>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item pinky-color">
+                <div class="flex-grid">
+                    <div class="flex-item">
+                        <h2>"set movement motor" at the beginning</h2>
+                    </div>
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/3rgmJCy/3-repeat-until-pressed.png" alt="3-repeat-until-pressed">
+                    </div>
+                    <div class="paragraph">
+                        <p>This is much more simple (that's what programmers do, make the codes more simple).</p>
+                        <p>1- <strong>Repeat</strong> [Robot make a big turn toward left]</p>
+                        <p>2- <strong>Until</strong> [Touch sensor is "pressed"] </p>
+                        <p>3- Robot moves forward for 400 degrees at the speed of 50%.</p>
+                    </div>
+                </div>
+            </div>
+        <!-- Closure of div grid-container -->
+        </div>
+
+
+        <!-- <div class="grid-container">
+            <div id="repeat-until-challenge" class="grid-item together pink-background">
+                <div class="flex-grid flex-container flex-item">
+
+                        <div class="both2">
+                            <h2>Repeat Until Touch sensor is "Pressed"</h2>
+                        </div>
+                        
+                        <div class="both3">
+                           <img src="https://s12.gifyu.com/images/SZPeP.gif" alt="4TouchSensor">
+                           <p>1- <strong>Repeat</strong> Robot moves backward forever at the speed of 40%</p>
+                           <p>2- <strong>Until</strong> [Touch sensor is "pressed"]</p>
+                           <p>3- Must add the "stop moving" since we put "start moving" block</p>
+                           <p>4- Move forward for 150 degrees at speed of 30%</p>
+                           <p>5- Make a left spin turn of 300 degrees at the speed of 30%.</p>
+                           <p>6- Move forward for 300 degrees at speed of 30%. Toward the yellow container</p>
+                           <p>7- Motor A move clockwise (up) 200 degrees at the speed of 20% </p>
+                          
+                           
+                        </div>
+
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/7NLVpyn/4-repeat-until-pressed-challenge.png" alt="4-repeat-until-pressed-challenge">
+                       <p>Purpose: Robot lift the yellow container</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div> Closure of grid-container -->
+        <hr class="line-divider">
+
+<div class="grid-container">
+            <!-- Observation area -->
+            <div class="grid-item together no-background" id="movement-key-takeaway">
+                <div class="label">
+                    <h3>Key-Takeaways: Why is Touch sensor important for programming?</h3>
+                </div>
+                <p>
+                    <ul class="observation-list">
+                        <li>-> <strong>Safety</strong>: The touch sensor helps EV3 avoid bumping into things. If it touches something, it can stop or change direction to avoid collisions.
+                        </li>
+                        <li>-> <strong>Interaction</strong>: interact with its environment. For example, it can detect when it's been touched by someone or something, which can trigger a response like moving forward, playing a sound, or stopping.
+                        </li>
+                        <li>-> <strong>Control</strong>: gives you control over EV3's actions. You can use loops, making the robot do complicated things. </li>
+                        <li>-> <strong>Real-world Applications:</strong>
+                            <ul class="observation-sublist">
+                                <li> Safety systems in cars</li>
+                                <li> Touch-sensitive buttons in electronics</li>
+                                <li> Industrial robots that stop when they encounter obstacles.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            </div>
+<!-- closure grid-container  -->
+    </div>
+
+
+<!-- Quiz Section -->
+    <div class="grid-container">
+        <div class="grid-item together pink-background" id="touchSensor-quiz">
+            <!-- Quiz section -->
+            <div class="app">
+                <h1>Time for a quiz!</h1>
+                <div class="quiz">
+                    <h2 id="question"> Question goes here</h2>
+                    <div id="answer-buttons">
+                        <button class="btn"> Answer 1</button>
+                        <button class="btn"> Answer 2</button>
+                        <button class="btn"> Answer 3</button>
+                        <button class="btn"> Answer 4</button>
+                    </div>
+                    <button id="next-button">Next</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+<!-- Challenge for you section -->
+        <div class="grid-item together pink-background" id="challengeYou">
+            <div class="challenge-container">
+                <div class="letter-both">
+                    <h2>Challenge for you</h2>
+                </div>
+                <!-- <div class="flex-grid flex-container flex-item challenge-container-color">
+                    <div class="flex-item">
+                        <img src="https://i.ibb.co/5c3p04N/5-1-Color-you.png" alt="5-1-Color-you">
+                    </div> -->
+                    <div class="flex-item">
+                        <img src="https://s12.gifyu.com/images/Sao3K.gif" alt="touch">
+                        <strong>
+                            <p>Hint:</p>
+                        </strong>
+                        <p>-> Use "forever" loop</p>
+                        <p>-> 1st: use counter-clockwise</p>
+                        <p>-> The degree I used it's 150. The speed is 50%.</p>
+                        <p>-> Don't use too much degree, or the motor might be stuck.</p>
+                    </div>
+
+                    <div class="flex-item">
+                        <div id="hide-box">
+                            <img src="https://i.ibb.co/qCcsVz1/TOUCH-CHALLENGE-YOU.png" alt="TOUCH-CHALLENGE-YOU" >
+                            <p>1- When touch sensor is [pressed], motor A go 150 degrees counter-clockwise (up).</p>
+                            <p>2- When touch sensor is [released], motor A go 150 degrees clockwise (down).</p>
+                            <p>-> Notice that I need wait until block. But you can explore and use loops inside loop (I might talk about this later on).</p>
+                        </div>
+                         <button class="unhide-button" onclick="ShowAnswer()">Show Answer</button>  
+                    </div>
+                    
+                </div>
+            <!-- challenge container closure -->
+            </div>
+        </div>
+
+<!-- Dont know of this /div -->
+    </div>
+
+
+
+    <!-- Buttons for next -->
+    <div class="bottom-buttons">
+        <a href=""><button id="home" class="home-icon"> <img src="https://i.ibb.co/fChm6F5/home-icon-silhouette.png" alt="home-icon-silhouette" height="30"></button> </a>
+        <a href=""><button id="motors" class="next-button">Next: Untrasonic Sensor <img src="https://i.ibb.co/0CWHhM7/icons8-arrow-full-white.png" alt="icons8-arrow-full-white" height="30" ></button></a>
+       
+    </div>
+
+
+          <!-- Footer -->
+          <div class="footer-container">
+            <div class="footerNav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#topic-buttons">Topics</a></li>
+                    <li><a href="#wro">About WRO</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2024; Designed by <span class="designer">Ashley Lin </span> | Senior 2024 | American Nicaraguan School</p>
+            </div>
+        </div>
+
+
+</div>
+    
+
+    <script src="quizSection.js"></script>
+    <script src="showAnswer.js"></script>
+    <script src="scroll-smooth.js"></script>
+</body>
+</html>
